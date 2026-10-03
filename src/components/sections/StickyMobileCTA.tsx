@@ -36,12 +36,12 @@ export const StickyMobileCTA: React.FC<StickyMobileCTAProps> = ({ targetRef, onO
     >
       <Button
         size="lg"
-        className="w-full text-base font-bold py-3.5 rounded-xl shadow-button flex items-center justify-center gap-2 group"
+        className="w-full h-auto min-h-14 whitespace-normal text-center leading-tight text-sm sm:text-base tracking-normal sm:tracking-wide font-bold py-3.5 px-4 rounded-xl shadow-button flex items-center justify-center gap-2 group"
         onClick={onOpenCheckout}
         tabIndex={hasScrolledPast ? 0 : -1}
       >
         <span>JETZT SOFORTIGEN ZUGANG ERHALTEN</span>
-        <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+        <ArrowRight className="w-5 h-5 shrink-0 group-hover:translate-x-1 transition-transform" />
       </Button>
     </div>
   );

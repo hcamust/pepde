@@ -85,11 +85,11 @@ export const ValueStack: React.FC<ValueStackProps> = ({ onOpenCheckout }) => {
 
             <Button
               size="lg"
-              className="w-full mt-6 text-base font-bold py-4 rounded-xl shadow-button flex items-center justify-center gap-2 group"
+              className="w-full mt-6 h-auto min-h-14 whitespace-normal text-center leading-tight text-base tracking-normal sm:tracking-wide font-bold py-4 px-4 sm:px-8 rounded-xl shadow-button flex items-center justify-center gap-2 group"
               onClick={onOpenCheckout}
             >
               <span>JETZT SOFORTIGEN ZUGANG SICHERN</span>
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              <ArrowRight className="w-5 h-5 shrink-0 group-hover:translate-x-1 transition-transform" />
             </Button>
             <p className="mt-3 text-center text-xs text-slate-400">Einmalige Zahlung · Kein Abo</p>
           </div>

@@ -90,11 +90,11 @@ export const Hero: React.FC<HeroProps> = ({ onOpenCheckout, ctaRef }) => {
         <div ref={ctaRef} className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4 max-w-md mx-auto">
           <Button 
             size="lg" 
-            className="w-full sm:w-auto text-lg font-bold py-4 px-8 shadow-button rounded-xl flex items-center justify-center gap-2 group"
+            className="w-full sm:w-auto h-auto min-h-14 whitespace-normal text-center leading-tight text-base sm:text-lg tracking-normal sm:tracking-wide font-bold py-4 px-4 sm:px-8 shadow-button rounded-xl flex items-center justify-center gap-2 group"
             onClick={onOpenCheckout}
           >
             <span>JETZT SOFORTIGEN ZUGANG ERHALTEN</span>
-            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+            <ArrowRight className="w-5 h-5 shrink-0 group-hover:translate-x-1 transition-transform" />
           </Button>
         </div>
 
