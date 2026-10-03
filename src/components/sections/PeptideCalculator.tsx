@@ -33,13 +33,13 @@ export const PeptideCalculator: React.FC = () => {
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-12">
           <Badge variant="urgent" className="mb-3 border-blue-400/40 bg-blue-500/20 text-blue-300">
-            <Sparkles className="w-3.5 h-3.5 mr-1" /> Interactive Live Feature Tool
+            <Sparkles className="w-3.5 h-3.5 mr-1" /> Interaktives Live-Tool
           </Badge>
           <h2 className="text-3xl md:text-4xl font-extrabold text-white tracking-tight font-heading">
             Live-Peptid-Spritzenrechner
           </h2>
           <p className="mt-3 text-slate-300 text-base md:text-lg">
-            Test the interactive calculator included in the system. Convert any peptide vial &amp; water volume into exact syringe IU marks in real time.
+            Teste den interaktiven Rechner, der im System enthalten ist. Rechne jede Peptid-Ampulle &amp; jedes Wasservolumen in Echtzeit in exakte IE-Markierungen auf der Spritze um.
           </p>
         </div>
 
@@ -53,7 +53,7 @@ export const PeptideCalculator: React.FC = () => {
             <div>
               <div className="flex justify-between items-center mb-2">
                 <label className="text-sm font-bold text-slate-200 flex items-center gap-1.5">
-                  1. Peptide Vial Quantity (mg):
+                  1. Peptidmenge in der Ampulle (mg):
                 </label>
                 <span className="text-xs font-mono bg-blue-900/60 px-2 py-0.5 rounded text-blue-300 font-bold">{vialMg} mg</span>
               </div>
@@ -90,7 +90,7 @@ export const PeptideCalculator: React.FC = () => {
             <div>
               <div className="flex justify-between items-center mb-2">
                 <label className="text-sm font-bold text-slate-200 flex items-center gap-1.5">
-                  2. Bacteriostatic Water Added (mL):
+                  2. Zugegebenes bakteriostatisches Wasser (mL):
                 </label>
                 <span className="text-xs font-mono bg-blue-900/60 px-2 py-0.5 rounded text-blue-300 font-bold">{waterMl} mL</span>
               </div>
@@ -116,7 +116,7 @@ export const PeptideCalculator: React.FC = () => {
             <div>
               <div className="flex justify-between items-center mb-2">
                 <label className="text-sm font-bold text-slate-200 flex items-center gap-1.5">
-                  3. Desired Single Dose (mcg):
+                  3. Gewünschte Einzeldosis (mcg):
                 </label>
                 <span className="text-xs font-mono bg-emerald-900/60 px-2 py-0.5 rounded text-emerald-300 font-bold">{targetMcg} mcg</span>
               </div>
@@ -152,7 +152,7 @@ export const PeptideCalculator: React.FC = () => {
             {/* Input 4: Syringe Size */}
             <div>
               <label className="text-sm font-bold text-slate-200 block mb-2">
-                4. Insulin Syringe Type:
+                4. Typ der Insulinspritze:
               </label>
               <div className="grid grid-cols-2 gap-3">
                 <button
@@ -164,7 +164,7 @@ export const PeptideCalculator: React.FC = () => {
                       : 'bg-slate-800/50 border-slate-700 text-slate-400'
                   }`}
                 >
-                  <span>U-100 (100 Units / 1 mL)</span>
+                  <span>U-100 (100 Einheiten / 1 mL)</span>
                   {syringeUnits === 100 && <CheckCircle2 className="w-4 h-4 text-emerald-400" />}
                 </button>
                 <button
@@ -176,7 +176,7 @@ export const PeptideCalculator: React.FC = () => {
                       : 'bg-slate-800/50 border-slate-700 text-slate-400'
                   }`}
                 >
-                  <span>U-50 (50 Units / 0.5 mL)</span>
+                  <span>U-50 (50 Einheiten / 0,5 mL)</span>
                   {syringeUnits === 50 && <CheckCircle2 className="w-4 h-4 text-emerald-400" />}
                 </button>
               </div>
@@ -187,28 +187,28 @@ export const PeptideCalculator: React.FC = () => {
           {/* Result Output Column (5 Cols) */}
           <div className="lg:col-span-5 bg-gradient-to-b from-slate-950 to-blue-950 p-6 rounded-2xl border border-blue-500/40 relative">
             <div className="flex items-center gap-2 text-amber-400 text-xs font-bold uppercase tracking-wider mb-4">
-              <Syringe className="w-4 h-4" /> Live Calculation Result
+              <Syringe className="w-4 h-4" /> Live-Berechnungsergebnis
             </div>
 
             {/* Units Big Output */}
             <div className="text-center py-4 border-b border-slate-800">
               <span className="text-xs text-slate-400 uppercase tracking-widest font-semibold block mb-1">
-                Pull Syringe Plunger To:
+                Spritzenkolben aufziehen bis:
               </span>
               <div className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-300 font-mono tracking-tight">
-                {unitsToDraw.toFixed(1)} <span className="text-2xl text-emerald-400 font-sans">IU</span>
+                {unitsToDraw.toFixed(1)} <span className="text-2xl text-emerald-400 font-sans">IE</span>
               </div>
               <span className="text-xs text-emerald-400/90 font-medium block mt-1">
-                ({unitsToDraw.toFixed(1)} units on your U-{syringeUnits} insulin syringe)
+                ({unitsToDraw.toFixed(1)} Einheiten auf deiner U-{syringeUnits}-Insulinspritze)
               </span>
             </div>
 
             {/* Syringe Visual Graphic Meter */}
             <div className="my-6">
               <div className="flex justify-between text-xs text-slate-400 mb-1 font-mono">
-                <span>0 IU</span>
-                <span>{unitsToDraw.toFixed(1)} IU Target</span>
-                <span>{syringeUnits} IU</span>
+                <span>0 IE</span>
+                <span>Ziel: {unitsToDraw.toFixed(1)} IE</span>
+                <span>{syringeUnits} IE</span>
               </div>
               <div className="h-6 bg-slate-800 rounded-full border border-slate-700 relative overflow-hidden p-1">
                 <div
@@ -221,22 +221,22 @@ export const PeptideCalculator: React.FC = () => {
             {/* Key Data Summary */}
             <div className="space-y-2 text-xs text-slate-300 bg-slate-900/60 p-4 rounded-xl border border-slate-800">
               <div className="flex justify-between">
-                <span className="text-slate-400">Concentration per mL:</span>
+                <span className="text-slate-400">Konzentration pro mL:</span>
                 <span className="font-bold text-white">{(mcgPerMl / 1000).toFixed(2)} mg/mL ({mcgPerMl.toFixed(0)} mcg/mL)</span>
               </div>
               <div className="flex justify-between">
-                <span className="text-slate-400">Dose per 1 IU Unit:</span>
-                <span className="font-bold text-cyan-300">{mcgPerUnit.toFixed(1)} mcg / unit</span>
+                <span className="text-slate-400">Dosis pro 1 IE:</span>
+                <span className="font-bold text-cyan-300">{mcgPerUnit.toFixed(1)} mcg / Einheit</span>
               </div>
               <div className="flex justify-between">
-                <span className="text-slate-400">Doses per Vial:</span>
-                <span className="font-bold text-emerald-400">{Math.floor(totalMcgInVial / (targetMcg || 1))} full doses</span>
+                <span className="text-slate-400">Dosen pro Ampulle:</span>
+                <span className="font-bold text-emerald-400">{Math.floor(totalMcgInVial / (targetMcg || 1))} volle Dosen</span>
               </div>
             </div>
 
             <div className="mt-4 flex items-start gap-2 text-xs text-slate-400 italic">
               <Info className="w-4 h-4 text-blue-400 shrink-0 mt-0.5" />
-              <span>The full system includes this calculator formatted as an offline Excel file + interactive web app.</span>
+              <span>Das komplette System enthält diesen Rechner als Offline-Excel-Datei + interaktive Web-App.</span>
             </div>
           </div>
 

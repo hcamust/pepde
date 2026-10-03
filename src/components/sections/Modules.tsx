@@ -5,58 +5,58 @@ export const Modules: React.FC = () => {
   const modulesList = [
     {
       num: '01',
-      title: 'Foundations & Reconstitution',
-      desc: 'Understand peptide biochemistry, half-life mechanics, reconstituting with BAC water, sterile injection protocols, and preventing degradation.',
+      title: 'Grundlagen & Rekonstitution',
+      desc: 'Verstehe Peptid-Biochemie, Halbwertszeit-Mechanik, die Rekonstitution mit BAC-Wasser, sterile Injektionsprotokolle und wie du Abbau verhinderst.',
       icon: <BookOpen className="w-5 h-5 text-blue-600" />,
     },
     {
       num: '02',
-      title: 'Body Recomposition & Fat Loss',
-      desc: 'GLP-1/GIP receptor agonists, growth hormone secretagogues, visceral fat reduction, lipolysis targeting, and preserving lean muscle mass.',
+      title: 'Körperrekomposition & Fettabbau',
+      desc: 'GLP-1/GIP-Rezeptoragonisten, Wachstumshormon-Sekretagoga, Reduktion von viszeralem Fett, gezielte Lipolyse und Erhalt der fettfreien Muskelmasse.',
       icon: <Flame className="w-5 h-5 text-amber-500" />,
     },
     {
       num: '03',
-      title: 'Cellular Shielding & Tissue Repair',
-      desc: 'Accelerating tendon, ligament, gut lining, and joint recovery using angiogenic and systemic anti-inflammatory peptide pathways.',
+      title: 'Zellschutz & Geweberegeneration',
+      desc: 'Beschleunigte Regeneration von Sehnen, Bändern, Darmschleimhaut und Gelenken über angiogene und systemisch entzündungshemmende Peptid-Signalwege.',
       icon: <Shield className="w-5 h-5 text-emerald-600" />,
     },
     {
       num: '04',
-      title: 'Nootropics, Mind & Longevity',
-      desc: 'Neurogenesis, brain-derived neurotrophic factor (BDNF), mitochondrial optimization, telomere extension, and anxiety modulation.',
+      title: 'Nootropika, Geist & Langlebigkeit',
+      desc: 'Neurogenese, Brain-derived neurotrophic factor (BDNF), mitochondriale Optimierung, Telomerverlängerung und Angstmodulation.',
       icon: <Brain className="w-5 h-5 text-purple-600" />,
     },
     {
       num: '05',
-      title: 'The Protocol Room (14 Ready Plans)',
-      desc: 'Step-by-step stack schedules specifying exact weekly schedules, titration steps, synergy pairings, and cycling timelines.',
+      title: 'Der Protokollraum (14 fertige Pläne)',
+      desc: 'Schritt-für-Schritt-Stack-Pläne mit exakten Wochenplänen, Titrationsschritten, synergistischen Kombinationen und Zyklus-Zeitplänen.',
       icon: <Heart className="w-5 h-5 text-red-500" />,
     },
   ];
 
   const peptidesCatalog = [
-    { name: 'Tirzepatide', cat: 'Fat Loss' },
-    { name: 'Semaglutide', cat: 'Fat Loss' },
-    { name: 'Retatrutide', cat: 'Fat Loss' },
-    { name: 'AOD-9604', cat: 'Fat Loss' },
-    { name: 'Frag 176-191', cat: 'Fat Loss' },
-    { name: 'BPC-157', cat: 'Recovery' },
-    { name: 'TB-500', cat: 'Recovery' },
-    { name: 'KPV', cat: 'Recovery' },
-    { name: 'GHK-Cu', cat: 'Skin & Repair' },
-    { name: 'CJC-1295', cat: 'Muscle' },
-    { name: 'Ipamorelin', cat: 'Muscle' },
-    { name: 'IGF-1 LR3', cat: 'Muscle' },
-    { name: 'Tesamorelin', cat: 'Muscle' },
-    { name: 'MK-677', cat: 'Muscle' },
+    { name: 'Tirzepatide', cat: 'Fettabbau' },
+    { name: 'Semaglutide', cat: 'Fettabbau' },
+    { name: 'Retatrutide', cat: 'Fettabbau' },
+    { name: 'AOD-9604', cat: 'Fettabbau' },
+    { name: 'Frag 176-191', cat: 'Fettabbau' },
+    { name: 'BPC-157', cat: 'Regeneration' },
+    { name: 'TB-500', cat: 'Regeneration' },
+    { name: 'KPV', cat: 'Regeneration' },
+    { name: 'GHK-Cu', cat: 'Haut & Reparatur' },
+    { name: 'CJC-1295', cat: 'Muskel' },
+    { name: 'Ipamorelin', cat: 'Muskel' },
+    { name: 'IGF-1 LR3', cat: 'Muskel' },
+    { name: 'Tesamorelin', cat: 'Muskel' },
+    { name: 'MK-677', cat: 'Muskel' },
     { name: 'Semax', cat: 'Nootropic' },
     { name: 'Selank', cat: 'Nootropic' },
-    { name: 'NAD+', cat: 'Longevity' },
-    { name: 'MOTS-c', cat: 'Longevity' },
-    { name: 'Epithalon', cat: 'Longevity' },
+    { name: 'NAD+', cat: 'Langlebigkeit' },
+    { name: 'MOTS-c', cat: 'Langlebigkeit' },
+    { name: 'Epithalon', cat: 'Langlebigkeit' },
     { name: 'PT-141', cat: 'Libido' },
-    { name: 'Melanotan II', cat: 'Skin' },
+    { name: 'Melanotan II', cat: 'Haut' },
   ];
 
   return (
@@ -72,7 +72,7 @@ export const Modules: React.FC = () => {
             In den 5 Modulen &amp; 181 technischen Seiten
           </h2>
           <p className="mt-3 text-slate-600 text-base md:text-lg">
-            Alles, was das structured logically so you never need to search forums or guess doses again.
+            Alles logisch strukturiert, damit du nie wieder Foren durchsuchen oder Dosierungen raten musst.
           </p>
         </div>
 
@@ -95,11 +95,11 @@ export const Modules: React.FC = () => {
                     {m.icon}
                   </div>
                   <span className={`text-xs font-bold uppercase tracking-wider ${idx === 4 ? 'text-blue-300' : 'text-blue-700'}`}>
-                    Module {m.num}
+                    Modul {m.num}
                   </span>
                 </div>
                 <span className={`text-xs font-mono font-bold ${idx === 4 ? 'text-blue-400' : 'text-slate-400'}`}>
-                  Verified Reference
+                  Geprüfte Referenz
                 </span>
               </div>
               <h3 className={`text-xl font-bold font-heading mb-2 ${idx === 4 ? 'text-white' : 'text-slate-900'}`}>
@@ -135,12 +135,12 @@ export const Modules: React.FC = () => {
               </span>
             ))}
             <span className="bg-blue-600 text-white text-xs font-bold px-3 py-1.5 rounded-full shadow-xs">
-              + 20 More Mapped Peptides
+              + 20 weitere erfasste Peptide
             </span>
           </div>
 
           <p className="text-xs text-slate-500 italic">
-            Each peptide includes mechanism of action, reconstitution formula, subcutaneous vs. intramuscular administration notes, and potential side effects.
+            Jedes Peptid enthält Wirkmechanismus, Rekonstitutionsformel, Hinweise zur subkutanen vs. intramuskulären Anwendung sowie mögliche Nebenwirkungen.
           </p>
         </div>
 
