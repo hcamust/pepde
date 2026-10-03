@@ -66,10 +66,10 @@ export const Modules: React.FC = () => {
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-14">
           <div className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-blue-100/80 text-blue-800 text-xs font-bold uppercase tracking-wider mb-3">
-            Comprehensive Curriculum
+            Umfassender Lehrplan
           </div>
           <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 tracking-tight font-heading">
-            Inside The 5 Modules &amp; 181 Technical Pages
+            In den 5 Modulen &amp; 181 technischen Seiten
           </h2>
           <p className="mt-3 text-slate-600 text-base md:text-lg">
             Alles, was das structured logically so you never need to search forums or guess doses again.
@@ -115,10 +115,10 @@ export const Modules: React.FC = () => {
         {/* Mapped Peptides Catalog Pill Cloud */}
         <div className="bg-gradient-to-b from-blue-50/60 to-slate-50 rounded-2xl p-6 md:p-8 border border-blue-200/70 text-center">
           <div className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-blue-700 mb-2">
-            <Sparkles className="w-4 h-4 text-blue-600" /> Full Spectrum Mapping
+            <Sparkles className="w-4 h-4 text-blue-600" /> Umfassende Katalogisierung
           </div>
           <h3 className="text-2xl font-bold text-slate-900 font-heading mb-4">
-            41 Peptides Fully Cataloged (Dose, Route, Half-Life &amp; Stacks)
+            41 Peptide vollständig katalogisiert (Dosis, Weg, Halbwertszeit &amp; Stacks)
           </h3>
 
           <div className="flex flex-wrap justify-center gap-2 max-w-4xl mx-auto mb-4">

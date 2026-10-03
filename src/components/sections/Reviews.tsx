@@ -4,27 +4,27 @@ export const Reviews: React.FC = () => {
   const reviewsList = [
     {
       name: 'Dr. Marcus Vance',
-      role: 'Sports Physician & Biohacker',
+      role: 'Sportarzt & Biohacker',
       rating: 5,
-      date: '2 weeks ago',
-      title: 'Finally a guide that cites actual PubMed papers',
-      text: 'I was skeptical because most online peptide info is recycled forum bro-science. Peptinova actually cites the author and year for every protocol. The syringe calculator alone saved me hours of explaining reconstitution to patients.',
+      date: 'vor 2 Wochen',
+      title: 'Endlich ein Leitfaden, der echte PubMed-Artikel zitiert',
+      text: 'Ich war skeptisch, weil die meisten Peptid-Infos im Internet recycelte Foren-Pseudowissenschaft sind. Peptinova zitiert tatsächlich den Autor und das Jahr für jedes Protokoll. Allein der Spritzenrechner hat mir stundenlanges Erklären der Rekonstitution bei Patienten erspart.',
     },
     {
       name: 'Elena Rostova',
-      role: 'Fitness Coach & Competitor',
+      role: 'Fitness-Coach & Wettkämpferin',
       rating: 5,
-      date: '1 month ago',
-      title: 'No more guessing IU units on my U-100 syringe',
-      text: 'I ruined a 5mg vial of BPC-157 last year because I added too much BAC water and got confused by the dosage conversion. This system gave me the exact syringe IU mark for my specific dose. Absolute lifesaver.',
+      date: 'vor 1 Monat',
+      title: 'Kein Rätselraten mehr über IE-Einheiten auf meiner U-100-Spritze',
+      text: 'Ich habe letztes Jahr eine 5-mg-Durchstechflasche BPC-157 ruiniert, weil ich zu viel BAC-Wasser hinzugefügt habe und bei der Dosierungsumrechnung verwirrt war. Dieses System gab mir die genaue IU-Markierung auf der Spritze für meine spezifische Dosis. Ein absoluter Lebensretter.',
     },
     {
       name: 'Julian Mercer',
-      role: 'Software Engineer & Longevity Enthusiast',
+      role: 'Software-Ingenieur & Langlebigkeits-Enthusiast',
       rating: 5,
-      date: '3 weeks ago',
-      title: 'The 14 ready protocols saved me hundreds of dollars',
-      text: 'Having ready-to-apply protocols for mitochondrial health and fat loss made starting so straightforward. I went straight to Module 4, picked my stack, and started the same day.',
+      date: 'vor 3 Wochen',
+      title: 'Die 14 fertigen Protokolle haben mir Hunderte von Euro gespart',
+      text: 'Die sofort anwendbaren Protokolle für die mitochondriale Gesundheit und den Fettabbau machten den Einstieg so einfach. Ich ging direkt zu Modul 4, wählte meinen Stack und begann noch am selben Tag.',
     },
   ];
 
@@ -40,10 +40,10 @@ export const Reviews: React.FC = () => {
             ))}
           </div>
           <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 tracking-tight font-heading">
-            Trusted by 1,420+ Health Practitioners &amp; Biohackers
+            Vertraut von über 1.420 Gesundheitsexperten &amp; Biohackern
           </h2>
           <p className="mt-2 text-slate-600 text-base md:text-lg">
-            Real feedback from verified users who eliminated guesswork with Peptinova.
+            Echtes Feedback von verifizierten Benutzern, die dank Peptinova kein Rätselraten mehr haben.
           </p>
         </div>
 
@@ -56,26 +56,26 @@ export const Reviews: React.FC = () => {
                 <Star key={i} className="w-4 h-4 fill-amber-400" />
               ))}
             </div>
-            <span className="text-xs text-slate-500 font-medium">Based on 1,420 verified user ratings</span>
+            <span className="text-xs text-slate-500 font-medium">Basierend auf 1.420 verifizierten Benutzerbewertungen</span>
           </div>
 
           <div className="w-full md:w-64 space-y-1.5 text-xs text-slate-600">
             <div className="flex items-center gap-2">
-              <span className="w-10">5 Stars</span>
+              <span className="w-10">5 Sterne</span>
               <div className="flex-1 h-2 bg-slate-100 rounded-full overflow-hidden">
                 <div className="h-full bg-emerald-500 rounded-full w-[94%]" />
               </div>
               <span className="w-8 text-right font-bold">94%</span>
             </div>
             <div className="flex items-center gap-2">
-              <span className="w-10">4 Stars</span>
+              <span className="w-10">4 Sterne</span>
               <div className="flex-1 h-2 bg-slate-100 rounded-full overflow-hidden">
                 <div className="h-full bg-emerald-400 rounded-full w-[5%]" />
               </div>
               <span className="w-8 text-right font-bold">5%</span>
             </div>
             <div className="flex items-center gap-2">
-              <span className="w-10">3 Stars</span>
+              <span className="w-10">3 Sterne</span>
               <div className="flex-1 h-2 bg-slate-100 rounded-full overflow-hidden">
                 <div className="h-full bg-amber-400 rounded-full w-[1%]" />
               </div>
@@ -112,7 +112,7 @@ export const Reviews: React.FC = () => {
                   <span className="text-[11px] text-slate-500">{rev.role}</span>
                 </div>
                 <div className="flex items-center gap-1 text-[11px] text-emerald-700 font-bold bg-emerald-50 px-2 py-0.5 rounded">
-                  <CheckCircle className="w-3 h-3 text-emerald-600" /> Verified Buyer
+                  <CheckCircle className="w-3 h-3 text-emerald-600" /> Verifizierter Käufer
                 </div>
               </div>
             </div>

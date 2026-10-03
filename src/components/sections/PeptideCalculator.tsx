@@ -36,7 +36,7 @@ export const PeptideCalculator: React.FC = () => {
             <Sparkles className="w-3.5 h-3.5 mr-1" /> Interactive Live Feature Tool
           </Badge>
           <h2 className="text-3xl md:text-4xl font-extrabold text-white tracking-tight font-heading">
-            Live Peptide Syringe Calculator
+            Live-Peptid-Spritzenrechner
           </h2>
           <p className="mt-3 text-slate-300 text-base md:text-lg">
             Test the interactive calculator included in the system. Convert any peptide vial &amp; water volume into exact syringe IU marks in real time.
