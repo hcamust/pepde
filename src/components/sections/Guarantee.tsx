@@ -19,13 +19,13 @@ export const Guarantee: React.FC<GuaranteeProps> = ({ onOpenCheckout }) => {
 
           <div className="flex-1">
             <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-bold uppercase tracking-wider mb-2">
-              100% Risk-Free Protection
+              100% Risikofreier Schutz
             </div>
             <h3 className="text-2xl md:text-3xl font-extrabold text-slate-900 font-heading mb-3">
-              7-Day Money-Back Guarantee
+              7-Tage-Geld-zurück-Garantie
             </h3>
             <p className="text-sm md:text-base text-slate-600 leading-relaxed mb-6">
-              Take the next 7 full days to examine the 5 modules, test out the 14 ready protocols, and use the interactive syringe calculator. If you don't feel completely confident in your peptide applications, email us for a 100% prompt refund. No hassle, no risk.
+              Nimm dir die nächsten 7 vollen Tage Zeit, um die 5 Module zu untersuchen, die 14 fertigen Protokolle zu testen und den interaktiven Spritzenrechner zu nutzen. Wenn du dich bei deinen Peptidanwendungen nicht vollkommen sicher fühlst, schreibe uns eine E-Mail für eine sofortige, 100%ige Rückerstattung. Kein Ärger, kein Risiko.
             </p>
 
             <Button
@@ -33,7 +33,7 @@ export const Guarantee: React.FC<GuaranteeProps> = ({ onOpenCheckout }) => {
               className="w-full sm:w-auto h-auto min-h-14 font-bold py-3.5 px-4 sm:px-8 shadow-button rounded-xl text-sm sm:text-lg whitespace-normal text-center leading-snug"
               onClick={onOpenCheckout}
             >
-              <span>CLAIM YOUR RISK-FREE ACCESS PASS</span>
+              <span>SICHERE DIR DEINEN RISIKOFREIEN ZUGANGSPASS</span>
               <ArrowRight className="ml-2 w-5 h-5 shrink-0 inline-block align-text-bottom" />
             </Button>
           </div>

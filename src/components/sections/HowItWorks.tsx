@@ -6,23 +6,23 @@ export const HowItWorks: React.FC = () => {
     {
       number: '01',
       icon: <Download className="w-6 h-6 text-blue-600" />,
-      title: 'Get Instant Digital Access',
+      title: 'Erhalte sofortigen digitalen Zugang',
       description:
-        'The complete 5-module system (181 technical pages), 41 mapped peptides, and 14 protocols land in your inbox within seconds after checkout.',
+        'Das komplette 5-Module-System (181 technische Seiten), 41 detaillierte Peptide und 14 Protokolle landen innerhalb von Sekunden nach dem Bezahlen in deinem Posteingang.',
     },
     {
       number: '02',
       icon: <Target className="w-6 h-6 text-blue-600" />,
-      title: 'Select Your Specific Protocol',
+      title: 'Wähle dein spezifisches Protokoll',
       description:
-        'Navigate directly to your goal (Fat Loss, Recovery, Hypertrophy, Longevity, Skin, or Nootropics) and see exact dosages & titration curves.',
+        'Navigiere direkt zu deinem Ziel (Fettabbau, Erholung, Hypertrophie, Langlebigkeit, Haut oder Nootropika) und sehe genaue Dosierungen & Titrationskurven.',
     },
     {
       number: '03',
       icon: <Syringe className="w-6 h-6 text-emerald-600" />,
-      title: 'Apply With Syringe Precision',
+      title: 'Mit Spritzen-Präzision anwenden',
       description:
-        'Use the Prime Dosing Calculator to enter vial size and water volume. Get the exact syringe mark in IU units with zero mental math or risk.',
+        'Verwende den Prime Dosierungsrechner, um Fläschchengröße und Wasservolumen einzugeben. Erhalte die genaue Spritzenmarkierung in IU-Einheiten ganz ohne Kopfrechnen oder Risiko.',
     },
   ];
 
@@ -33,13 +33,13 @@ export const HowItWorks: React.FC = () => {
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-14">
           <div className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-blue-100/80 text-blue-800 text-xs font-bold uppercase tracking-wider mb-3">
-            Simple 3-Step Workflow
+            Einfacher 3-Schritte-Workflow
           </div>
           <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 tracking-tight font-heading">
-            How The System Works
+            Wie das System funktioniert
           </h2>
           <p className="mt-3 text-slate-600 text-base md:text-lg">
-            From confusion to confident application in minutes. No endless research required.
+            Von Verwirrung zur souveränen Anwendung in Minuten. Keine endlose Recherche erforderlich.
           </p>
         </div>
 

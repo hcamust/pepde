@@ -40,7 +40,7 @@ export const StickyMobileCTA: React.FC<StickyMobileCTAProps> = ({ targetRef, onO
         onClick={onOpenCheckout}
         tabIndex={hasScrolledPast ? 0 : -1}
       >
-        <span>GET INSTANT ACCESS NOW</span>
+        <span>JETZT SOFORTIGEN ZUGANG ERHALTEN</span>
         <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
       </Button>
     </div>

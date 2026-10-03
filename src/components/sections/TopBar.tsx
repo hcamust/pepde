@@ -26,20 +26,20 @@ export const TopBar: React.FC = () => {
             <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
           </span>
           <span className="flex items-center gap-1 text-emerald-400 font-bold tracking-wide uppercase text-xs">
-            <Flame className="w-4 h-4 text-emerald-400 animate-bounce" /> 2026 Edition Release
+            <Flame className="w-4 h-4 text-emerald-400 animate-bounce" /> 2026 Edition Veröffentlichung
           </span>
           <span className="hidden sm:inline text-slate-400">|</span>
-          <span className="text-slate-200">The Complete Science-Backed Peptide Application System</span>
+          <span className="text-slate-200">Das komplette wissenschaftlich fundierte Peptid-Anwendungssystem</span>
         </div>
 
         <div className="flex items-center justify-center gap-4 w-full md:w-auto mx-auto md:mx-0">
           <div className="flex items-center gap-1.5 bg-blue-900/50 border border-blue-400/30 px-3 py-1 rounded-full text-xs font-mono">
             <Clock className="w-3.5 h-3.5 text-blue-400" />
-            <span className="text-slate-300">Special Offer Ends in:</span>
+            <span className="text-slate-300">Sonderangebot endet in:</span>
             <span className="font-bold text-amber-300 tracking-wider">{formatTime(timeLeft)}</span>
           </div>
           <div className="hidden lg:flex items-center gap-1 text-xs text-slate-300">
-            <ShieldCheck className="w-4 h-4 text-emerald-400" /> 7-Day Guarantee
+            <ShieldCheck className="w-4 h-4 text-emerald-400" /> 7-Tage-Garantie
           </div>
         </div>
       </div>

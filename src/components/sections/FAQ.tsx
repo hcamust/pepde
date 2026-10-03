@@ -5,24 +5,24 @@ import { HelpCircle } from 'lucide-react';
 export const FAQ: React.FC = () => {
   const faqs = [
     {
-      q: 'Is this a physical book or instant digital access?',
-      a: 'Peptinova is 100% digital. Immediately after checkout, you receive instant access to all 5 PDF modules (181 pages), the 14 ready-to-use protocols, the interactive web calculator, and all 3 bonuses + 2 gifts. You can read it on your phone, tablet, or laptop anytime.',
+      q: 'Ist dies ein physisches Buch oder ein sofortiger digitaler Zugang?',
+      a: 'Peptinova ist 100% digital. Unmittelbar nach dem Bezahlen erhältst du sofortigen Zugriff auf alle 5 PDF-Module (181 Seiten), die 14 fertigen Protokolle, den interaktiven Web-Rechner und alle 3 Boni + 2 Geschenke. Du kannst es jederzeit auf deinem Handy, Tablet oder Laptop lesen.',
     },
     {
-      q: 'How does the Syringe Dosing Calculator work?',
-      a: 'The calculator allows you to input your specific vial milligram size (e.g., 5mg or 10mg), the volume of bacteriostatic water you injected into the vial (e.g., 2mL), and your target dose in micrograms (e.g., 250mcg). It automatically outputs the exact IU mark to pull your U-100 or U-50 insulin syringe plunger to.',
+      q: 'Wie funktioniert der Spritzen-Dosierungsrechner?',
+      a: 'Mit dem Rechner kannst du die spezifische Milligramm-Größe deines Fläschchens (z. B. 5mg oder 10mg), das Volumen des bakteriostatischen Wassers, das du in das Fläschchen injiziert hast (z. B. 2ml), und deine Zieldosis in Mikrogramm (z. B. 250mcg) eingeben. Er gibt automatisch die genaue IU-Markierung aus, auf die du den Kolben deiner U-100 oder U-50 Insulinspritze ziehen musst.',
     },
     {
-      q: 'I have never used peptides before. Is this suitable for beginners?',
-      a: 'Yes, absolutely. The system was structured specifically to bridge the gap between beginner confusion and expert application. Module 01 walks you through basic biochemistry, sterile reconstitution, storage temperatures, and avoiding common syringe math mistakes step-by-step.',
+      q: 'Ich habe noch nie Peptide verwendet. Ist das für Anfänger geeignet?',
+      a: 'Ja, absolut. Das System wurde speziell strukturiert, um die Lücke zwischen anfänglicher Verwirrung und fachkundiger Anwendung zu schließen. Modul 01 führt dich Schritt für Schritt durch grundlegende Biochemie, sterile Rekonstitution, Lagertemperaturen und die Vermeidung häufiger Fehler bei der Spritzenberechnung.',
     },
     {
-      q: 'Are the study citations real and verifiable?',
-      a: 'Yes. Unlike forum posts or social media claims, every single protocol in Peptinova cites the author, year, and published peer-reviewed journal paper (PubMed/NCBI) so you can look up the research and verify the findings yourself.',
+      q: 'Sind die Studienzitate echt und überprüfbar?',
+      a: 'Ja. Im Gegensatz zu Forenbeiträgen oder Social-Media-Behauptungen zitiert jedes einzelne Protokoll in Peptinova den Autor, das Jahr und das veröffentlichte, peer-reviewte Journal-Paper (PubMed/NCBI), damit du die Forschung nachschlagen und die Ergebnisse selbst überprüfen kannst.',
     },
     {
-      q: 'What if I am not satisfied with the system?',
-      a: 'We offer an unconditional 7-Day 100% Money-Back Guarantee. If you feel the guide and calculator did not save you time or money, simply send us an email within 7 days for a full refund — no questions asked.',
+      q: 'Was ist, wenn ich mit dem System nicht zufrieden bin?',
+      a: 'Wir bieten eine bedingungslose 100%ige 7-Tage-Geld-zurück-Garantie. Wenn du der Meinung bist, dass der Leitfaden und der Rechner dir weder Zeit noch Geld gespart haben, sende uns einfach innerhalb von 7 Tagen eine E-Mail für eine vollständige Rückerstattung — ohne Fragen zu stellen.',
     },
   ];
 
@@ -33,13 +33,13 @@ export const FAQ: React.FC = () => {
         {/* Header */}
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-blue-100 text-blue-800 text-xs font-bold uppercase tracking-wider mb-3">
-            <HelpCircle className="w-3.5 h-3.5" /> Clear Answers
+            <HelpCircle className="w-3.5 h-3.5" /> Klare Antworten
           </div>
           <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 tracking-tight font-heading">
-            Frequently Asked Questions
+            Häufig gestellte Fragen
           </h2>
           <p className="mt-3 text-slate-600 text-base">
-            Everything you need to know about Peptinova System before starting.
+            Alles, was du über das Peptinova System wissen musst, bevor du anfängst.
           </p>
         </div>
 

@@ -8,52 +8,52 @@ interface ComparisonCell {
 export const ComparisonTable: React.FC = () => {
   const comparisonRows: { feature: string; forums: ComparisonCell; consult: ComparisonCell; peptinova: ComparisonCell }[] = [
     {
-      feature: 'Price',
-      forums: { icon: '$0', detail: '$0 (Free)' },
-      consult: { icon: '$150+', detail: '$150+ / Visit' },
-      peptinova: { icon: '$27', detail: '$27 One-time' },
+      feature: 'Preis',
+      forums: { icon: '$0', detail: '$0 (Kostenlos)' },
+      consult: { icon: '$150+', detail: '$150+ / Besuch' },
+      peptinova: { icon: '$27', detail: '$27 Einmalig' },
     },
     {
-      feature: '41 Peptides Fully Mapped Out',
-      forums: { icon: '⚠️', detail: '⚠️ Contradictory' },
-      consult: { icon: '❌', detail: '❌ Limited Scope' },
-      peptinova: { icon: '✅', detail: '✅ 100% Included' },
+      feature: '41 Peptide vollständig beschrieben',
+      forums: { icon: '⚠️', detail: '⚠️ Widersprüchlich' },
+      consult: { icon: '❌', detail: '❌ Begrenzter Umfang' },
+      peptinova: { icon: '✅', detail: '✅ 100% Inklusive' },
     },
     {
-      feature: '14 Ready-to-Use Goal Protocols',
-      forums: { icon: '❌', detail: '❌ None' },
-      consult: { icon: '⚠️', detail: '⚠️ 1-2 Specific' },
-      peptinova: { icon: '✅', detail: '✅ 14 Ready Protocols' },
+      feature: '14 gebrauchsfertige Zielprotokolle',
+      forums: { icon: '❌', detail: '❌ Keine' },
+      consult: { icon: '⚠️', detail: '⚠️ 1-2 Spezifisch' },
+      peptinova: { icon: '✅', detail: '✅ 14 Fertige Protokolle' },
     },
     {
-      feature: 'Exact Syringe IU Dosing Math',
-      forums: { icon: '⚠️', detail: '⚠️ High Risk' },
-      consult: { icon: '✅', detail: '✅ Provided' },
-      peptinova: { icon: '✅', detail: '✅ Instant Calculator' },
+      feature: 'Genaue Spritzen-IU-Dosierungsberechnung',
+      forums: { icon: '⚠️', detail: '⚠️ Hohes Risiko' },
+      consult: { icon: '✅', detail: '✅ Bereitgestellt' },
+      peptinova: { icon: '✅', detail: '✅ Sofort-Rechner' },
     },
     {
-      feature: 'Cited PubMed Medical Papers',
-      forums: { icon: '❌', detail: '❌ Unverified Claims' },
-      consult: { icon: '⚠️', detail: '⚠️ Mentioned' },
-      peptinova: { icon: '✅', detail: '✅ Cited (Author/Year)' },
+      feature: 'Zitierte PubMed-Medizinische-Paper',
+      forums: { icon: '❌', detail: '❌ Unbestätigte Behauptungen' },
+      consult: { icon: '⚠️', detail: '⚠️ Erwähnt' },
+      peptinova: { icon: '✅', detail: '✅ Zitiert (Autor/Jahr)' },
     },
     {
-      feature: 'Reconstitution Water Guide',
-      forums: { icon: '⚠️', detail: '⚠️ Vague' },
-      consult: { icon: '✅', detail: '✅ Provided' },
-      peptinova: { icon: '✅', detail: '✅ Step-by-Step Math' },
+      feature: 'Rekonstitutionswasser-Leitfaden',
+      forums: { icon: '⚠️', detail: '⚠️ Vage' },
+      consult: { icon: '✅', detail: '✅ Bereitgestellt' },
+      peptinova: { icon: '✅', detail: '✅ Schritt-für-Schritt Mathe' },
     },
     {
-      feature: '3 Bonuses + 2 Gifts Included',
-      forums: { icon: '❌', detail: '❌ None' },
-      consult: { icon: '❌', detail: '❌ None' },
-      peptinova: { icon: '✅', detail: '✅ All 5 Free Today' },
+      feature: '3 Boni + 2 Geschenke inklusive',
+      forums: { icon: '❌', detail: '❌ Keine' },
+      consult: { icon: '❌', detail: '❌ Keine' },
+      peptinova: { icon: '✅', detail: '✅ Alle 5 heute kostenlos' },
     },
     {
-      feature: '100% Risk-Free 7-Day Guarantee',
-      forums: { icon: '❌', detail: '❌ None' },
-      consult: { icon: '❌', detail: '❌ No Refund' },
-      peptinova: { icon: '✅', detail: '✅ 7-Day Guarantee' },
+      feature: '100% risikofreie 7-Tage-Garantie',
+      forums: { icon: '❌', detail: '❌ Keine' },
+      consult: { icon: '❌', detail: '❌ Keine Rückerstattung' },
+      peptinova: { icon: '✅', detail: '✅ 7-Tage-Garantie' },
     },
   ];
 
@@ -64,13 +64,13 @@ export const ComparisonTable: React.FC = () => {
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-14">
           <div className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-blue-100 text-blue-800 text-xs font-bold uppercase tracking-wider mb-3">
-            Value Comparison Matrix
+            Wertvergleichsmatrix
           </div>
           <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 tracking-tight font-heading">
-            Why Peptinova Is The Smartest Choice
+            Warum Peptinova die cleverste Wahl ist
           </h2>
           <p className="mt-3 text-slate-600 text-base md:text-lg">
-            See how Peptinova System compares to random forum searching or expensive specialist visits.
+            Sieh, wie das Peptinova System im Vergleich zur zufälligen Forensuche oder teuren Spezialistenbesuchen abschneidet.
           </p>
         </div>
 
@@ -86,13 +86,13 @@ export const ComparisonTable: React.FC = () => {
             <thead>
               <tr className="border-b border-slate-200 bg-slate-50">
                 <th className="py-3 px-2 sm:py-4 sm:px-6 text-xs sm:text-sm font-bold text-slate-700 align-bottom">
-                  Feature / Benefit
+                  Funktion / Vorteil
                 </th>
                 <th className="py-3 px-1 sm:py-4 sm:px-4 text-center text-[10px] sm:text-xs font-bold text-slate-500 uppercase tracking-wider align-bottom leading-tight">
-                  Forums &amp; PDFs
+                  Foren &amp; PDFs
                 </th>
                 <th className="py-3 px-1 sm:py-4 sm:px-4 text-center text-[10px] sm:text-xs font-bold text-slate-500 uppercase tracking-wider align-bottom leading-tight">
-                  Private Consult
+                  Privatkonsultation
                 </th>
                 <th className="py-3 px-1.5 sm:py-4 sm:px-6 text-center text-[10px] sm:text-sm font-bold text-white bg-blue-700 rounded-t-xl shadow-md align-bottom leading-tight">
                   PEPTINOVA SYSTEM
