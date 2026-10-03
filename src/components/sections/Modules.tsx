@@ -72,7 +72,7 @@ export const Modules: React.FC = () => {
             Inside The 5 Modules &amp; 181 Technical Pages
           </h2>
           <p className="mt-3 text-slate-600 text-base md:text-lg">
-            Everything structured logically so you never need to search forums or guess doses again.
+            Alles, was das structured logically so you never need to search forums or guess doses again.
           </p>
         </div>
 

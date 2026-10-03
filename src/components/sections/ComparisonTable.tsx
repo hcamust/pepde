@@ -9,9 +9,9 @@ export const ComparisonTable: React.FC = () => {
   const comparisonRows: { feature: string; forums: ComparisonCell; consult: ComparisonCell; peptinova: ComparisonCell }[] = [
     {
       feature: 'Preis',
-      forums: { icon: '$0', detail: '$0 (Kostenlos)' },
-      consult: { icon: '$150+', detail: '$150+ / Besuch' },
-      peptinova: { icon: '$27', detail: '$27 Einmalig' },
+      forums: { icon: '0 €', detail: '0 € (Kostenlos)' },
+      consult: { icon: '150 €+', detail: '150 €+ / Besuch' },
+      peptinova: { icon: '27 €', detail: '27 € Einmalig' },
     },
     {
       feature: '41 Peptide vollständig beschrieben',

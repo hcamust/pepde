@@ -65,7 +65,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenCheckout, ctaRef }) => {
             </div>
           </div>
 
-          {/* Core Feature Bullet Highlights */}
+          {/* Kern Feature Bullet Highlights */}
           <div className="mt-6 pt-6 border-t border-slate-100 grid grid-cols-1 sm:grid-cols-2 gap-3 text-left text-sm text-slate-700">
             <div className="flex items-center gap-2">
               <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />

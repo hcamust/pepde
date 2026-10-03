@@ -8,34 +8,34 @@ interface ValueStackProps {
 
 const stackItems = [
   {
-    tag: 'Core',
-    desc: '5 Complete Modules — 181 pages, 41 peptides, 14 protocols',
-    price: '$97.00',
+    tag: 'Kern',
+    desc: '5 komplette Module — 181 Seiten, 41 Peptide, 14 Protokolle',
+    price: '97,00 €',
   },
   {
     tag: 'Bonus 1',
-    desc: 'Prime Syringe Calculator App (spreadsheet)',
-    price: '$37.00',
+    desc: 'Prime Spritzenrechner App (Tabelle)',
+    price: '37,00 €',
   },
   {
     tag: 'Bonus 2',
-    desc: 'Smart Buyer Vetting Guide (suppliers & COA)',
-    price: '$29.00',
+    desc: 'Smart Buyer Vetting Guide (Anbieter & COA)',
+    price: '29,00 €',
   },
   {
     tag: 'Bonus 3',
-    desc: 'Protocol Tracking System (tracker)',
-    price: '$27.00',
+    desc: 'Protokoll-Tracking-System (Tracker)',
+    price: '27,00 €',
   },
   {
-    tag: 'Gift 1',
-    desc: 'Peptide Master Map — the right peptide for your goal',
-    price: '$19.00',
+    tag: 'Geschenk 1',
+    desc: 'Peptid-Masterplan — das richtige Peptid für Ihr Ziel',
+    price: '19,00 €',
   },
   {
-    tag: 'Gift 2',
-    desc: 'Essential Peptide Glossary — 50 terms made simple',
-    price: '$15.00',
+    tag: 'Geschenk 2',
+    desc: 'Wesentliches Peptid-Glossar — 50 Begriffe einfach erklärt',
+    price: '15,00 €',
   },
 ];
 
@@ -47,10 +47,10 @@ export const ValueStack: React.FC<ValueStackProps> = ({ onOpenCheckout }) => {
           {/* Header */}
           <div className="p-6 md:p-8 pb-4 text-center">
             <div className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-blue-600 mb-2">
-              <span className="h-px w-6 bg-blue-300" /> What You Get Today <span className="h-px w-6 bg-blue-300" />
+              <span className="h-px w-6 bg-blue-300" /> Was Sie heute erhalten <span className="h-px w-6 bg-blue-300" />
             </div>
             <h2 className="text-2xl md:text-3xl font-extrabold text-slate-900 font-heading">
-              Everything <span className="text-blue-700">Peptinova System</span> Includes
+              Alles, was das <span className="text-blue-700">Peptinova System</span> beinhaltet
             </h2>
           </div>
 
@@ -72,15 +72,15 @@ export const ValueStack: React.FC<ValueStackProps> = ({ onOpenCheckout }) => {
           {/* Total / Price / Savings */}
           <div className="bg-gradient-to-r from-blue-900 via-blue-950 to-slate-900 text-white p-6 md:p-8 mt-2">
             <div className="flex items-center justify-between py-2 border-b border-white/10">
-              <span className="text-slate-300 text-sm sm:text-base">Total Real Value</span>
-              <span className="text-rose-400 line-through font-bold text-lg">$224.00</span>
+              <span className="text-slate-300 text-sm sm:text-base">Tatsächlicher Gesamtwert</span>
+              <span className="text-rose-400 line-through font-bold text-lg">224,00 €</span>
             </div>
             <div className="flex items-center justify-between py-3">
-              <span className="text-blue-300 italic font-semibold text-sm sm:text-base">Your Price Today</span>
-              <span className="text-3xl font-extrabold">$27</span>
+              <span className="text-blue-300 italic font-semibold text-sm sm:text-base">Ihr heutiger Preis</span>
+              <span className="text-3xl font-extrabold">27 €</span>
             </div>
             <div className="mt-2 rounded-xl bg-emerald-500/15 border border-emerald-400/30 text-emerald-300 text-center py-2.5 text-xs sm:text-sm font-bold uppercase tracking-wide">
-              You Save $197 · Introductory Price
+              Sie sparen 197 € · Einführungspreis
             </div>
 
             <Button
@@ -88,10 +88,10 @@ export const ValueStack: React.FC<ValueStackProps> = ({ onOpenCheckout }) => {
               className="w-full mt-6 text-base font-bold py-4 rounded-xl shadow-button flex items-center justify-center gap-2 group"
               onClick={onOpenCheckout}
             >
-              <span>GET INSTANT ACCESS NOW</span>
+              <span>JETZT SOFORTIGEN ZUGANG SICHERN</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <p className="mt-3 text-center text-xs text-slate-400">One-time payment · No subscription</p>
+            <p className="mt-3 text-center text-xs text-slate-400">Einmalige Zahlung · Kein Abo</p>
           </div>
         </div>
       </div>

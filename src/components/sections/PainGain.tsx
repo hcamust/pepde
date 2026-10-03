@@ -14,28 +14,28 @@ export const PainGain: React.FC = () => {
             </div>
             <div>
               <h3 className="text-xl md:text-2xl font-bold text-slate-900 font-heading">
-                The Real Reason Most Peptide Protocols Fail
+                Der wahre Grund, warum die meisten Peptid-Protokolle scheitern
               </h3>
-              <p className="text-sm text-red-700 font-medium">Why piecing together forum advice creates mistakes</p>
+              <p className="text-sm text-red-700 font-medium">Warum Ratschläge aus Foren zu Fehlern führen</p>
             </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm md:text-base text-slate-700">
             <div className="flex items-start gap-3 bg-white p-4 rounded-xl border border-red-100 shadow-xs">
               <XCircle className="w-5 h-5 text-red-500 shrink-0 mt-0.5" />
-              <span><strong>Contradictory forum doses:</strong> One post claims 250mcg, another says 500mcg, leaving you guessing with your own body.</span>
+              <span><strong>Widersprüchliche Dosierungen in Foren:</strong> Ein Beitrag behauptet 250mcg, ein anderer sagt 500mcg, was Sie beim Ausprobieren an Ihrem eigenen Körper im Ungewissen lässt.</span>
             </div>
             <div className="flex items-start gap-3 bg-white p-4 rounded-xl border border-red-100 shadow-xs">
               <XCircle className="w-5 h-5 text-red-500 shrink-0 mt-0.5" />
-              <span><strong>Scattered medical studies:</strong> The research exists, but it's buried across dozens of dense papers you'd need a biochemistry degree to synthesize.</span>
+              <span><strong>Verstreute medizinische Studien:</strong> Die Forschung existiert, aber sie ist in Dutzenden von dichten Artikeln vergraben, für deren Verständnis man einen Abschluss in Biochemie bräuchte.</span>
             </div>
             <div className="flex items-start gap-3 bg-white p-4 rounded-xl border border-red-100 shadow-xs">
               <XCircle className="w-5 h-5 text-red-500 shrink-0 mt-0.5" />
-              <span><strong>Reconstitution math errors:</strong> Nobody explains exact bacteriostatic water volume vs. insulin syringe IU units.</span>
+              <span><strong>Fehler bei der Rekonstitutionsberechnung:</strong> Niemand erklärt das genaue Verhältnis zwischen dem Volumen von bakteriostatischem Wasser und den IE-Einheiten einer Insulinspritze.</span>
             </div>
             <div className="flex items-start gap-3 bg-white p-4 rounded-xl border border-red-100 shadow-xs">
               <XCircle className="w-5 h-5 text-red-500 shrink-0 mt-0.5" />
-              <span><strong>Wasted money:</strong> Losing $300–$1,000+ on improper cycles, wrong peptides for your specific goal, or canceled benefits.</span>
+              <span><strong>Verschwendetes Geld:</strong> Verlust von 300 € – 1.000 €+ on improper cycles, wrong peptides for your specific goal, or canceled benefits.</span>
             </div>
           </div>
         </div>
@@ -56,28 +56,28 @@ export const PainGain: React.FC = () => {
             </div>
             <div>
               <h3 className="text-xl md:text-2xl font-bold text-white font-heading">
-                What You Achieve With Peptinova System
+                Was Sie mit dem Peptinova-System erreichen
               </h3>
-              <p className="text-sm text-blue-200">Total clarity from day one — zero trial and error</p>
+              <p className="text-sm text-blue-200">Absolute Klarheit ab dem ersten Tag — kein Ausprobieren nötig</p>
             </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm md:text-base relative z-10">
             <div className="flex items-start gap-3 bg-blue-900/40 border border-blue-700/50 p-4 rounded-xl backdrop-blur-sm">
               <CheckCircle2 className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
-              <span className="text-slate-100"><strong className="text-white">Total Clarity:</strong> Know exactly which peptide, dose, route, and half-life to use for fat loss, recovery, skin, or longevity.</span>
+              <span className="text-slate-100"><strong className="text-white">Absolute Klarheit:</strong> Wissen Sie genau, welches Peptid, welche Dosis, welcher Weg und welche Halbwertszeit zu verwenden ist for fat loss, recovery, skin, or longevity.</span>
             </div>
             <div className="flex items-start gap-3 bg-blue-900/40 border border-blue-700/50 p-4 rounded-xl backdrop-blur-sm">
               <CheckCircle2 className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
-              <span className="text-slate-100"><strong className="text-white">Exact Syringe Math:</strong> Use our integrated calculator to convert vial mg + BAC water into exact syringe units (IU).</span>
+              <span className="text-slate-100"><strong className="text-white">Exakte Spritzen-Mathematik:</strong> Nutzen Sie unseren integrierten Rechner, um Milligramm pro Fläschchen + BAC-Wasser in exakte Spritzeneinheiten (IU) umzuwandeln.</span>
             </div>
             <div className="flex items-start gap-3 bg-blue-900/40 border border-blue-700/50 p-4 rounded-xl backdrop-blur-sm">
               <CheckCircle2 className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
-              <span className="text-slate-100"><strong className="text-white">Cited PubMed References:</strong> Every single protocol cites author, year, and study data so you can verify everything yourself.</span>
+              <span className="text-slate-100"><strong className="text-white">Zitierte PubMed-Referenzen:</strong> Jedes einzelne Protokoll nennt Autor, Jahr und Studiendaten, sodass Sie alles selbst überprüfen können.</span>
             </div>
             <div className="flex items-start gap-3 bg-blue-900/40 border border-blue-700/50 p-4 rounded-xl backdrop-blur-sm">
               <CheckCircle2 className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
-              <span className="text-slate-100"><strong className="text-white">Save Hundreds:</strong> Avoid wasted vials, improper storage degradation, and ineffective stacks right from your first dose.</span>
+              <span className="text-slate-100"><strong className="text-white">Hunderte sparen:</strong> Vermeiden Sie verschwendete Fläschchen, Qualitätsverlust durch falsche Lagerung und ineffektive Stacks gleich bei Ihrer ersten Dosis.</span>
             </div>
           </div>
         </div>

@@ -16,7 +16,7 @@ export const Bonuses: React.FC<BonusesProps> = ({ onOpenCheckout }) => {
     {
       type: 'BONUS 01',
       title: 'Prime Spritzenrechner App',
-      value: '$37 Wert',
+      value: '37 € Wert',
       desc: 'Interaktive herunterladbare Tabelle (Excel, Google Sheets, LibreOffice) mit voreingestellten automatisierten Formeln für 41 Peptide. Berechne IU-Spritzeneinheiten nie wieder manuell.',
       image: bonus1Image,
       color: 'border-blue-200 bg-white',
@@ -24,7 +24,7 @@ export const Bonuses: React.FC<BonusesProps> = ({ onOpenCheckout }) => {
     {
       type: 'BONUS 02',
       title: 'Smart Buyer Prüfungsleitfaden',
-      value: '$29 Wert',
+      value: '29 € Wert',
       desc: 'Wie man Lieferanten prüft, HPLC-Reinheitstests verifiziert, Analysezertifikate (COA) liest und gefälschte oder unterdosierte gefriergetrocknete Fläschchen vermeidet.',
       image: bonus2Image,
       color: 'border-blue-200 bg-white',
@@ -32,7 +32,7 @@ export const Bonuses: React.FC<BonusesProps> = ({ onOpenCheckout }) => {
     {
       type: 'BONUS 03',
       title: 'Protokoll-Tracking-System',
-      value: '$27 Wert',
+      value: '27 € Wert',
       desc: 'Benutzerdefinierte Protokollvorlagen (Notion, druckbare PDF & Tabellen), um Startdaten, Körpermaße, Dosierungssteigerungskurven und Ergebnisse zu verfolgen.',
       image: bonus3Image,
       color: 'border-blue-200 bg-white',
@@ -40,7 +40,7 @@ export const Bonuses: React.FC<BonusesProps> = ({ onOpenCheckout }) => {
     {
       type: 'GIFT 01',
       title: 'Peptid-Master-Map Diagramm',
-      value: '$19 Wert',
+      value: '19 € Wert',
       desc: 'Visueller Entscheidungsbaum auf einen Blick, der spezifische Gesundheits- oder Leistungsziele in Sekunden direkt dem genauen Ziel-Peptid zuordnet.',
       image: gift1Image,
       color: 'border-emerald-200 bg-emerald-50/40',
@@ -48,7 +48,7 @@ export const Bonuses: React.FC<BonusesProps> = ({ onOpenCheckout }) => {
     {
       type: 'GIFT 02',
       title: 'Essenzielles Peptid-Glossar',
-      value: '$15 Wert',
+      value: '15 € Wert',
       desc: 'Leicht verständliche Aufschlüsselung von 50 Fachbegriffen — Halbwertszeit, Lyophilisierung, Rekonstitution, mcg vs. IU, Rezeptoraffinität und Lagertemperaturen.',
       image: gift2Image,
       color: 'border-emerald-200 bg-emerald-50/40',
@@ -65,7 +65,7 @@ export const Bonuses: React.FC<BonusesProps> = ({ onOpenCheckout }) => {
             <Gift className="w-3.5 h-3.5" /> Heute kostenlos inklusive
           </div>
           <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 tracking-tight font-heading">
-            3 Bonus-Tools + 2 kostenlose Geschenke ($127 Gesamtwert)
+            3 Bonus-Tools + 2 kostenlose Geschenke (127 € Gesamtwert)
           </h2>
           <p className="mt-3 text-slate-600 text-base md:text-lg">
             Vervollständige dein Peptid-Kit mit diesen sofort einsatzbereiten Ressourcen, die ohne zusätzliche Kosten enthalten sind.
@@ -162,7 +162,7 @@ export const Bonuses: React.FC<BonusesProps> = ({ onOpenCheckout }) => {
         {/* Total Gift Banner */}
         <div className="bg-gradient-to-r from-blue-900 via-blue-950 to-slate-900 text-white rounded-2xl p-6 md:p-8 text-center border border-blue-800 shadow-xl max-w-3xl mx-auto">
           <h3 className="text-2xl font-bold font-heading mb-2">
-            Erhalte alle 5 Boni &amp; Geschenke inklusive für <span className="text-emerald-400">$0 Extra</span>
+            Erhalte alle 5 Boni &amp; Geschenke inklusive für <span className="text-emerald-400">0 € Extra</span>
           </h3>
           <p className="text-sm text-slate-300 max-w-xl mx-auto mb-6">
             Wenn du dir heute deine Kopie des Peptinova Systems sicherst, werden alle 3 Boni und 2 Geschenke sofort in deinem Konto freigeschaltet.
